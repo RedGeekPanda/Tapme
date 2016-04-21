@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/my_button2"
+    android:clickable="true"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/menu_logo"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginBottom="15dp"
+        android:layout_marginTop="20dp"
+        android:layout_weight="7.5"
+        android:src="@drawable/icon_lg_x3" />
+
+    <Button
+        android:id="@+id/menu_start"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="3.5"
+        android:background="@drawable/my_button1"
+        android:gravity="center"
+        android:text="@string/play"
+        android:textColor="@color/white"
+        android:textSize="48sp"
+        android:typeface="monospace" />
+
+    <TextView
+        android:id="@+id/menu_score"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1.2"
+        android:background="@color/dark_filter"
+        android:gravity="center"
+        android:text="@string/score"
+        android:textColor="@color/white"
+        android:textSize="32sp"
+        android:typeface="monospace" />
+
+    <Button
+        android:id="@+id/menu_exit"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginBottom="35dp"
+        android:layout_weight="2.8"
+        android:background="@drawable/my_button1"
+        android:gravity="center"
+        android:text="@string/exit"
+        android:textColor="@color/white"
+        android:textSize="48sp"
+        android:typeface="monospace" />
+</LinearLayout>

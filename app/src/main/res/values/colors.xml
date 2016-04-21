@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="button1norm">#42A5F5</color>
+    <color name="button2norm">#FFA726</color>
+    <color name="button1pres">#90caf9</color>
+    <color name="button2pres">#ffcc80</color>
+    <color name="dark_filter">#48000000</color>
+    <color name="transparent">#00000000</color>
+    <color name="white">#ffffff</color>
+</resources>

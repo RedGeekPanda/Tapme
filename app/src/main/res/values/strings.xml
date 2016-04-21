@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Tap me</string>
+    <string name="play">Play</string>
+    <string name="score">Score</string>
+    <string name="exit">Exit</string>
+    <string name="onstart">Tap me!</string>
+    <string name="onready">0</string>
+    <string name="button_1_win">Button 1 win!</string>
+    <string name="button_2_win">Button 2 win!</string>
+</resources>

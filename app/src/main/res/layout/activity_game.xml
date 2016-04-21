@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <FrameLayout
+        android:id="@+id/button1_frm"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:rotation="180">
+
+        <Button
+            android:id="@+id/button1_btn"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/my_button1" />
+
+        <TextView
+            android:id="@+id/button1_txt"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="@string/onstart"
+            android:textColor="@color/white"
+            android:textSize="64sp" />
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/button2_frm"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <Button
+            android:id="@+id/button2_btn"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/my_button2" />
+
+        <TextView
+            android:id="@+id/button2_txt"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="@string/onstart"
+            android:textColor="@color/white"
+            android:textSize="64sp" />
+    </FrameLayout>
+</LinearLayout>
